@@ -1,11 +1,11 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /*HOME*/
+
 /*  INICIO - NAVBAR*/
 .navbar {
     background-color: black;
@@ -22,6 +22,7 @@
 }
 
 /*FIN - NAVBAR*/
+
 /*INICIO - JUMBOTRON*/
 .jumbotron {
     background-image: url(imagenes/maradonacopa.jpg);
@@ -68,6 +69,7 @@ h1 {
 }
 
 /*FIN - JUMBOTRON*/
+
 /* INICIO - PERSONLAIZACION H2*/
 h2 {
     background-color: black;
@@ -81,6 +83,7 @@ h2 {
 }
 
 /* FIN - PERSONLAIZACION H2*/
+
 /* INICIO - LA LEYENDA*/
 .container-fluid {
     background-color: lightblue;
@@ -107,6 +110,7 @@ h2 {
 }
 
 /* FIN - LA LEYENDA*/
+
 /*SECCION - GALERIA*/
 .galeria {
     background-color: lightblue;
@@ -118,7 +122,10 @@ h2 {
     padding: 5px;
     grid-gap: 20px;
     border-bottom: 2px solid white;
-    grid-template-areas: "aaaj  boca boca barcelona""napoli sevilla sevilla newels""boca2 seleccion tecnico tecnico";
+    grid-template-areas:
+        "aaaj  boca boca barcelona"
+        "napoli sevilla sevilla newels"
+        "boca2 seleccion tecnico tecnico";
 }
 
 .item {
@@ -186,6 +193,7 @@ h2 {
 .item8 {
     background-image: url(imagenes/maradonaSeleccion.jpg);
     background: position center;
+    ;
     background-size: cover;
     grid-area: seleccion;
 }
@@ -193,11 +201,13 @@ h2 {
 .item9 {
     background-image: url(imagenes/tecnico.jpg);
     background: position 50%;
+    ;
     background-size: cover;
     grid-area: tecnico;
 }
 
 /*FIN - SECCION GALERIA*/
+
 /*INCIO - FOOTER*/
 footer {
     background-color: black;
@@ -225,6 +235,7 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - FOOTER*/
+
 /*INICIO - BOTON SUBIR*/
 .subir {
     height: 50px;
@@ -242,8 +253,9 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - BOTON SUBIR*/
+
 /* INICIO - RESPONSIVE*/
-@media only screen and (min-width: 0) and (max-width: 359px) {
+@media only screen and (min-width:0) and (max-width:359px) {
     .galeria {
         background-color: lightblue;
         height: 2000px;
@@ -254,11 +266,20 @@ footer .redesSociales i:hover {
         padding: 10px;
         grid-gap: 20px;
         border-bottom: 2px solid white;
-        grid-template-areas: "aaaj""boca""barcelona""napoli""sevilla""newels""boca2""seleccion""tecnico";
+        grid-template-areas:
+            "aaaj"
+            "boca"
+            "barcelona"
+            "napoli"
+            "sevilla"
+            "newels"
+            "boca2"
+            "seleccion"
+            "tecnico";
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 699px) {
+@media only screen and (min-width:360px) and (max-width:699px) {
     .galeria {
         background-color: lightblue;
         height: 850px;
@@ -267,11 +288,16 @@ footer .redesSociales i:hover {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, 150px);
         border-bottom: 2px solid white;
-        grid-template-areas: "aaaj boca""barcelona napoli""sevilla newels""boca2 seleccion""tecnico tecnico";
+        grid-template-areas:
+            "aaaj boca"
+            "barcelona napoli"
+            "sevilla newels"
+            "boca2 seleccion"
+            "tecnico tecnico"
     }
 }
 
-@media only screen and (min-width: 0) and (max-width: 400px) {
+@media only screen and (min-width:0) and (max-width:400px) {
     .textoJumbotron {
         background-color: rgba(173, 216, 230, 0.548);
         padding: 10px;
@@ -280,7 +306,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 0) and (max-width: 180px) {
+@media only screen and (min-width:0) and (max-width:180px) {
     footer {
         background-color: black;
         height: 500px;
@@ -292,7 +318,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 181px) {
+@media only screen and (min-width:181px) {
     footer {
         background-color: black;
         height: 410px;
@@ -304,7 +330,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 220px) {
+@media only screen and (min-width:220px) {
     footer {
         background-color: black;
         height: 350px;
@@ -316,7 +342,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 257px) {
+@media only screen and (min-width:257px) {
     footer {
         background-color: black;
         height: 300px;
@@ -328,7 +354,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width:350px) {
     footer {
         background-color: black;
         height: 200px;
@@ -340,7 +366,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 655px) {
+@media only screen and (min-width:655px) {
     footer {
         background-color: black;
         height: 150px;
@@ -353,7 +379,9 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - RESPONSIVE*/
+
 /*MEXICO 86*/
+
 /*INCIO - JUMBOTRON*/
 .jumbotronMexico {
     background-image: url(imagenes/maradonaBesoCopa.jpg);
@@ -372,6 +400,7 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - JUMBOTRON*/
+
 /*INICIO - ARGENTINA VS INGLATERRA*/
 .videoArgIng {
     padding: 20px;
@@ -385,6 +414,7 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - ARGENTINA VS INGLATERRA*/
+
 /*NACE EL MITO*/
 .galeriaMundial {
     background-color: lightblue;
@@ -396,7 +426,10 @@ footer .redesSociales i:hover {
     padding: 5px;
     grid-gap: 20px;
     border-bottom: 2px solid white;
-    grid-template-areas: "mex86 mex86 diego2 diego3""mex86 mex86 diego4 diego5""diego6 diego7 diego4 diego8";
+    grid-template-areas:
+        "mex86 mex86 diego2 diego3"
+        "mex86 mex86 diego4 diego5"
+        "diego6 diego7 diego4 diego8"
 }
 
 .img {
@@ -484,6 +517,7 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - ETERNO*/
+
 /*INCIO - ANIMACION*/
 .animacion {
     width: 100px;
@@ -517,8 +551,9 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - ANIMACION*/
+
 /*INICIO - RESPONSIVE*/
-@media only screen and (min-width: 0) and (max-width: 359px) {
+@media only screen and (min-width:0) and (max-width:359px) {
     .galeriaMundial {
         background-color: lightblue;
         height: 1800px;
@@ -529,11 +564,19 @@ footer .redesSociales i:hover {
         padding: 5px;
         grid-gap: 20px;
         border-bottom: 2px solid white;
-        grid-template-areas: "mex86""diego2""diego3""diego4""diego5""diego6""diego7""diego8";
+        grid-template-areas:
+            "mex86"
+            "diego2"
+            "diego3"
+            "diego4"
+            "diego5"
+            "diego6"
+            "diego7"
+            "diego8"
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 699px) {
+@media only screen and (min-width:360px) and (max-width:699px) {
     .galeriaMundial {
         background-color: lightblue;
         height: 1150px;
@@ -544,11 +587,17 @@ footer .redesSociales i:hover {
         padding: 5px;
         grid-gap: 20px;
         border-bottom: 2px solid white;
-        grid-template-areas: "mex86 mex86""diego2 diego3""diego4 diego5""diego6 diego7""diego8 diego8";
+        grid-template-areas:
+            "mex86 mex86"
+            "diego2 diego3"
+            "diego4 diego5"
+            "diego6 diego7"
+            "diego8 diego8"
     }
 }
 
 /*FIN - RESPONSIVE*/
+
 /*CARRERA*/
 .argentinosJuniors {
     height: 700px;
@@ -683,7 +732,7 @@ footer .redesSociales i:hover {
 }
 
 /*INICIO - RESPONSIVE*/
-@media only screen and (min-width: 0px) and (max-width: 360px) {
+@media only screen and (min-width:0px) and (max-width:360px) {
     .argentinosJuniors {
         height: 1000px;
         width: 100%;
@@ -773,7 +822,7 @@ footer .redesSociales i:hover {
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 699px) {
+@media only screen and (min-width:360px) and (max-width:699px) {
     .galeriaMundial {
         background-color: lightblue;
         height: 1150px;
@@ -784,11 +833,17 @@ footer .redesSociales i:hover {
         padding: 5px;
         grid-gap: 20px;
         border-bottom: 2px solid white;
-        grid-template-areas: "mex86 mex86""diego2 diego3""diego4 diego5""diego6 diego7""diego8 diego8";
+        grid-template-areas:
+            "mex86 mex86"
+            "diego2 diego3"
+            "diego4 diego5"
+            "diego6 diego7"
+            "diego8 diego8"
     }
 }
 
 /*FIN - RESPONSIVE*/
+
 /*CARRERA*/
 .argentinosJuniors {
     height: 700px;
@@ -923,7 +978,7 @@ footer .redesSociales i:hover {
 }
 
 /*INICIO - RESPONSIVE*/
-@media only screen and (min-width: 0px) and (max-width: 1200px) {
+@media only screen and (min-width:0px) and (max-width:1200px) {
     .argentinosJuniors {
         height: 1000px;
         width: 100%;
@@ -1014,7 +1069,9 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - CARRERA*/
+
 /*INICIO - LEYENDA*/
+
 /*NACE LA LEYENDA*/
 .videoElMito {
     padding: 20px;
@@ -1028,6 +1085,7 @@ footer .redesSociales i:hover {
 }
 
 /* FIN - NACE LA LEYENDA*/
+
 /*INICIO - GALERIA NIÑEZ*/
 .primerosAños {
     background-color: lightblue;
@@ -1039,7 +1097,8 @@ footer .redesSociales i:hover {
     padding: 5px;
     grid-gap: 20px;
     border-bottom: 2px solid white;
-    grid-template-areas: "niño1 niño2 niño3 niño4";
+    grid-template-areas:
+        "niño1 niño2 niño3 niño4"
 }
 
 .niño1 {
@@ -1071,6 +1130,7 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - GALERIA NIÑEZ*/
+
 /*INICIO - INFINITO*/
 .fondoInfinito {
     background-image: url(imagenes/diegoNiñoAdulto.webp);
@@ -1080,8 +1140,9 @@ footer .redesSociales i:hover {
 }
 
 /*FIN- INFINITO*/
+
 /*INICIO - RESPONSIVE*/
-@media only screen and (min-width: 0) and (max-width: 360px) {
+@media only screen and (min-width:0) and (max-width:360px) {
     .primerosAños {
         background-color: lightblue;
         height: 1000px;
@@ -1092,11 +1153,15 @@ footer .redesSociales i:hover {
         padding: 5px;
         grid-gap: 20px;
         border-bottom: 2px solid white;
-        grid-template-areas: "niño1""niño2""niño3""niño4";
+        grid-template-areas:
+            "niño1"
+            "niño2"
+            "niño3"
+            "niño4"
     }
 }
 
-@media only screen and (min-width: 361px) and (max-width: 650px) {
+@media only screen and (min-width:361px) and (max-width:650px) {
     .primerosAños {
         background-color: lightblue;
         height: auto;
@@ -1107,11 +1172,14 @@ footer .redesSociales i:hover {
         padding: 5px;
         grid-gap: 20px;
         border-bottom: 2px solid white;
-        grid-template-areas: "niño1 niño2""niño3 niño4";
+        grid-template-areas:
+            "niño1 niño2"
+            "niño3 niño4"
     }
 }
 
 /*FIN - RESPONSIVE*/
+
 /*CONTACTO*/
 .contacto {
     background-color: lightblue;
@@ -1139,7 +1207,7 @@ footer .redesSociales i:hover {
 }
 
 /*INICIO - RESPONSIVE*/
-@media only screen and (min-width: 0px) and (max-width: 600px) {
+@media only screen and (min-width:0px) and (max-width:600px) {
     .contacto {
         background-color: lightblue;
         height: 2000px;
@@ -1165,5 +1233,3 @@ footer .redesSociales i:hover {
 }
 
 /*FIN - CONTACTO*/
-
-/*# sourceMappingURL=estilos.css.map */
