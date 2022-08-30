@@ -1,0 +1,1235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*HOME*/
+
+/*  INICIO - NAVBAR*/
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.navbar span {
+    color: lightblue;
+    font-size: 34px;
+}
+
+/*FIN - NAVBAR*/
+
+/*INICIO - JUMBOTRON*/
+.jumbotron {
+    background-image: url(imagenes/maradonacopa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 0;
+}
+
+.textoJumbotron {
+    background-color: rgba(173, 216, 230, 0.548);
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-align: start;
+    text-shadow: 1px 1px 5px white;
+}
+
+.jumbotron p {
+    color: black;
+    text-shadow: 1px 1px 5px white;
+    text-align: start;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: lightblue;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    text-decoration: none;
+}
+
+.btn-primary a {
+    text-decoration: none;
+}
+
+/*FIN - JUMBOTRON*/
+
+/* INICIO - PERSONLAIZACION H2*/
+h2 {
+    background-color: black;
+    color: lightblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px 0;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom: 0;
+}
+
+/* FIN - PERSONLAIZACION H2*/
+
+/* INICIO - LA LEYENDA*/
+.container-fluid {
+    background-color: lightblue;
+}
+
+.imagenLeyenda {
+    background-image: url(imagenes/niño.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.textoLeyenda {
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    height: auto;
+}
+
+#botonLeyenda {
+    background-color: black;
+    color: white;
+}
+
+/* FIN - LA LEYENDA*/
+
+/*SECCION - GALERIA*/
+.galeria {
+    background-color: lightblue;
+    height: 650px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 200px);
+    padding: 5px;
+    grid-gap: 20px;
+    border-bottom: 2px solid white;
+    grid-template-areas:
+        "aaaj  boca boca barcelona"
+        "napoli sevilla sevilla newels"
+        "boca2 seleccion tecnico tecnico";
+}
+
+.item {
+    border-radius: 5px;
+    border: 2px solid white;
+    filter: grayscale(100%);
+    transition: all 0.7s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+    transition: all 0.7s;
+}
+
+.item1 {
+    background-image: url(imagenes/aaaj.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: aaaj;
+}
+
+.item2 {
+    background-image: url(imagenes/boca.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: boca;
+}
+
+.item3 {
+    background-image: url(imagenes/barcelona.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: barcelona;
+}
+
+.item4 {
+    background-image: url(imagenes/napoli.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: napoli;
+}
+
+.item5 {
+    background-image: url(imagenes/sevilla.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: sevilla;
+}
+
+.item6 {
+    background-image: url(imagenes/newels.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: newels;
+}
+
+.item7 {
+    background-image: url(imagenes/maradonaBoca.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: boca2;
+}
+
+.item8 {
+    background-image: url(imagenes/maradonaSeleccion.jpg);
+    background: position center;
+    ;
+    background-size: cover;
+    grid-area: seleccion;
+}
+
+.item9 {
+    background-image: url(imagenes/tecnico.jpg);
+    background: position 50%;
+    ;
+    background-size: cover;
+    grid-area: tecnico;
+}
+
+/*FIN - SECCION GALERIA*/
+
+/*INCIO - FOOTER*/
+footer {
+    background-color: black;
+    height: 140px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+}
+
+footer .redesSociales {
+    font-size: 40px;
+    color: lightblue;
+}
+
+footer .redesSociales i {
+    color: lightblue;
+    margin-left: 10px;
+}
+
+footer .redesSociales i:hover {
+    color: white;
+}
+
+/*FIN - FOOTER*/
+
+/*INICIO - BOTON SUBIR*/
+.subir {
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+/*FIN - BOTON SUBIR*/
+
+/* INICIO - RESPONSIVE*/
+@media only screen and (min-width:0) and (max-width:359px) {
+    .galeria {
+        background-color: lightblue;
+        height: 2000px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 200px);
+        padding: 10px;
+        grid-gap: 20px;
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "aaaj"
+            "boca"
+            "barcelona"
+            "napoli"
+            "sevilla"
+            "newels"
+            "boca2"
+            "seleccion"
+            "tecnico";
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:699px) {
+    .galeria {
+        background-color: lightblue;
+        height: 850px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 150px);
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "aaaj boca"
+            "barcelona napoli"
+            "sevilla newels"
+            "boca2 seleccion"
+            "tecnico tecnico"
+    }
+}
+
+@media only screen and (min-width:0) and (max-width:400px) {
+    .textoJumbotron {
+        background-color: rgba(173, 216, 230, 0.548);
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width:0) and (max-width:180px) {
+    footer {
+        background-color: black;
+        height: 500px;
+        width: 100%;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:181px) {
+    footer {
+        background-color: black;
+        height: 410px;
+        width: 100%;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:220px) {
+    footer {
+        background-color: black;
+        height: 350px;
+        width: 100%;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:257px) {
+    footer {
+        background-color: black;
+        height: 300px;
+        width: 100%;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:350px) {
+    footer {
+        background-color: black;
+        height: 200px;
+        width: 100%;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:655px) {
+    footer {
+        background-color: black;
+        height: 150px;
+        width: 100%;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/*FIN - RESPONSIVE*/
+
+/*MEXICO 86*/
+
+/*INCIO - JUMBOTRON*/
+.jumbotronMexico {
+    background-image: url(imagenes/maradonaBesoCopa.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+}
+
+.textoJumbotronMexico {
+    width: 50%;
+    background-color: rgba(173, 216, 230, 0.548);
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    margin: 20px;
+}
+
+/*FIN - JUMBOTRON*/
+
+/*INICIO - ARGENTINA VS INGLATERRA*/
+.videoArgIng {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.textoArgIng {
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+/*FIN - ARGENTINA VS INGLATERRA*/
+
+/*NACE EL MITO*/
+.galeriaMundial {
+    background-color: lightblue;
+    height: 650px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+    padding: 5px;
+    grid-gap: 20px;
+    border-bottom: 2px solid white;
+    grid-template-areas:
+        "mex86 mex86 diego2 diego3"
+        "mex86 mex86 diego4 diego5"
+        "diego6 diego7 diego4 diego8"
+}
+
+.img {
+    border-radius: 5px;
+    border: 2px solid white;
+    filter: grayscale(100%);
+    transition: all 0.7s;
+}
+
+.img:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+    transition: all 0.7s;
+}
+
+.img1 {
+    background-image: url(imagenes/img-8.webp);
+    background-position: center;
+    background-size: cover;
+    grid-area: mex86;
+}
+
+.img2 {
+    background-image: url(imagenes/86-1.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego1;
+}
+
+.img3 {
+    background-image: url(imagenes/img-2.webp);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego2;
+}
+
+.img4 {
+    background-image: url(imagenes/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego3;
+}
+
+.img5 {
+    background-image: url(imagenes/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego4;
+}
+
+.img6 {
+    background-image: url(imagenes/img-5.webp);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego5;
+}
+
+.img7 {
+    background-image: url(imagenes/img-6.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego6;
+}
+
+.img8 {
+    background-image: url(imagenes/img-7.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego7;
+}
+
+.img9 {
+    background-image: url(imagenes/img-9.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: diego8;
+}
+
+/*INICIO - ETERNO*/
+.eternoFondo {
+    background-image: url(imagenes/fondoDiegoEterno.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+/*FIN - ETERNO*/
+
+/*INCIO - ANIMACION*/
+.animacion {
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: white;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: repeat;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+@keyframes efecto {
+    0% {
+        width: 100px;
+    }
+
+    10% {
+        background-color: lightblue;
+    }
+
+    100% {
+        width: 100%;
+        background-color: lightblue;
+    }
+}
+
+/*FIN - ANIMACION*/
+
+/*INICIO - RESPONSIVE*/
+@media only screen and (min-width:0) and (max-width:359px) {
+    .galeriaMundial {
+        background-color: lightblue;
+        height: 1800px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 200px);
+        padding: 5px;
+        grid-gap: 20px;
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "mex86"
+            "diego2"
+            "diego3"
+            "diego4"
+            "diego5"
+            "diego6"
+            "diego7"
+            "diego8"
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:699px) {
+    .galeriaMundial {
+        background-color: lightblue;
+        height: 1150px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 200px);
+        padding: 5px;
+        grid-gap: 20px;
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "mex86 mex86"
+            "diego2 diego3"
+            "diego4 diego5"
+            "diego6 diego7"
+            "diego8 diego8"
+    }
+}
+
+/*FIN - RESPONSIVE*/
+
+/*CARRERA*/
+.argentinosJuniors {
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoAaaj {
+    background-image: url(imagenes/maradonaAaaj.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 50%;
+    float: right;
+}
+
+.textoAaaj {
+    height: 700px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoAaaj p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.bocaJuniors {
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoBocaJuniors {
+    background-image: url(imagenes/maradonaFlores.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 50%;
+    float: right;
+}
+
+.textoBocaJuniors {
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoBocaJuniors p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.clubBarcelona {
+    height: 850px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoBarcelona {
+    background-image: url(imagenes/maradonaBarcelona1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+    width: 50%;
+    float: right;
+}
+
+.textoBarcelona {
+    height: 850px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoBarcelona p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.clubNapoli {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoNapoli {
+    background-image: url(imagenes/maradonaNapoli10.webp);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 50%;
+    float: right;
+}
+
+.textoNapoli {
+    height: 1000px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoNapoli p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.mejoresGolesClub {
+    height: auto;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/*INICIO - RESPONSIVE*/
+@media only screen and (min-width:0px) and (max-width:360px) {
+    .argentinosJuniors {
+        height: 1000px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoAaaj {
+        background-image: url(imagenes/maradonaAaaj.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+    }
+
+    .textoAaaj {
+        height: 2600px;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+
+    .bocaJuniors {
+        height: 800px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoBocaJuniors {
+        background-image: url(imagenes/maradonaFlores.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+    }
+
+    .textoBocaJuniors {
+        height: 2100px;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+
+    .clubBarcelona {
+        height: 850px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoBarcelona {
+        background-image: url(imagenes/maradonaBarcelona1.webp);
+        background-position: center;
+        background-size: cover;
+        height: 850px;
+        width: 100%;
+    }
+
+    .textoBarcelona {
+        height: 2900px;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+
+    .clubNapoli {
+        height: 1000px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoNapoli {
+        background-image: url(imagenes/maradonaNapoli10.webp);
+        background-position: center;
+        background-size: cover;
+        height: 1000px;
+        width: 100%;
+    }
+
+    .textoNapoli {
+        height: 3300px;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:699px) {
+    .galeriaMundial {
+        background-color: lightblue;
+        height: 1150px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 200px);
+        padding: 5px;
+        grid-gap: 20px;
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "mex86 mex86"
+            "diego2 diego3"
+            "diego4 diego5"
+            "diego6 diego7"
+            "diego8 diego8"
+    }
+}
+
+/*FIN - RESPONSIVE*/
+
+/*CARRERA*/
+.argentinosJuniors {
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoAaaj {
+    background-image: url(imagenes/maradonaAaaj.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+.textoAaaj {
+    height: auto;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoAaaj p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.bocaJuniors {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoBocaJuniors {
+    background-image: url(imagenes/maradonaFlores.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+.textoBocaJuniors {
+    height: auto;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoBocaJuniors p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.clubBarcelona {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoBarcelona {
+    background-image: url(imagenes/maradonaBarcelona1.webp);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+.textoBarcelona {
+    height: auto;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoBarcelona p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.clubNapoli {
+    height: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoNapoli {
+    background-image: url(imagenes/maradonaNapoli10.webp);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+.textoNapoli {
+    height: auto;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.textoNapoli p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.mejoresGolesClub {
+    height: auto;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/*INICIO - RESPONSIVE*/
+@media only screen and (min-width:0px) and (max-width:1200px) {
+    .argentinosJuniors {
+        height: 1000px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoAaaj {
+        background-image: url(imagenes/maradonaAaaj.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+    }
+
+    .textoAaaj {
+        height: auto;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+
+    .bocaJuniors {
+        height: 800px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoBocaJuniors {
+        background-image: url(imagenes/maradonaFlores.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+    }
+
+    .textoBocaJuniors {
+        height: auto;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+
+    .clubBarcelona {
+        height: 850px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoBarcelona {
+        background-image: url(imagenes/maradonaBarcelona1.webp);
+        background-position: center;
+        background-size: cover;
+        height: 850px;
+        width: 100%;
+    }
+
+    .textoBarcelona {
+        height: auto;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+
+    .clubNapoli {
+        height: 1000px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .fotoNapoli {
+        background-image: url(imagenes/maradonaNapoli10.webp);
+        background-position: center;
+        background-size: cover;
+        height: 1000px;
+        width: 100%;
+    }
+
+    .textoNapoli {
+        height: auto;
+        width: 100%;
+        background-color: lightblue;
+        border: 2px solid lightblue;
+    }
+}
+
+/*FIN - CARRERA*/
+
+/*INICIO - LEYENDA*/
+
+/*NACE LA LEYENDA*/
+.videoElMito {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.textoElMito {
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+/* FIN - NACE LA LEYENDA*/
+
+/*INICIO - GALERIA NIÑEZ*/
+.primerosAños {
+    background-color: lightblue;
+    height: 220px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    padding: 5px;
+    grid-gap: 20px;
+    border-bottom: 2px solid white;
+    grid-template-areas:
+        "niño1 niño2 niño3 niño4"
+}
+
+.niño1 {
+    background-image: url(imagenes/niño.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: niño1;
+}
+
+.niño2 {
+    background-image: url(imagenes/maradonaCabeza.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: niño2;
+}
+
+.niño3 {
+    background-image: url(imagenes/maradonaNiño.webp);
+    background-position: center;
+    background-size: cover;
+    grid-area: niño3;
+}
+
+.niño4 {
+    background-image: url(imagenes/maradonaCebollitas1.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: niño4;
+}
+
+/*FIN - GALERIA NIÑEZ*/
+
+/*INICIO - INFINITO*/
+.fondoInfinito {
+    background-image: url(imagenes/diegoNiñoAdulto.webp);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*FIN- INFINITO*/
+
+/*INICIO - RESPONSIVE*/
+@media only screen and (min-width:0) and (max-width:360px) {
+    .primerosAños {
+        background-color: lightblue;
+        height: 1000px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 200px);
+        padding: 5px;
+        grid-gap: 20px;
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "niño1"
+            "niño2"
+            "niño3"
+            "niño4"
+    }
+}
+
+@media only screen and (min-width:361px) and (max-width:650px) {
+    .primerosAños {
+        background-color: lightblue;
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 200px);
+        padding: 5px;
+        grid-gap: 20px;
+        border-bottom: 2px solid white;
+        grid-template-areas:
+            "niño1 niño2"
+            "niño3 niño4"
+    }
+}
+
+/*FIN - RESPONSIVE*/
+
+/*CONTACTO*/
+.contacto {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.contactoNosotros {
+    height: auto;
+    width: 30%;
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgContacto {
+    background-image: url(imagenes/maradonaTelefono.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 70%;
+    float: right;
+}
+
+/*INICIO - RESPONSIVE*/
+@media only screen and (min-width:0px) and (max-width:600px) {
+    .contacto {
+        background-color: lightblue;
+        height: 2000px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .contactoNosotros {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .imgContacto {
+        background-image: url(imagenes/maradonaTelefono.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 1200px;
+        width: 100%;
+    }
+}
+
+/*FIN - CONTACTO*/
