@@ -9,16 +9,16 @@
 /*  INICIO - NAVBAR*/
 .navbar {
     background-color: black;
+
+    span {
+        color: lightblue;
+        font-size: 34px;
+    }
 }
 
 .navbar-brand {
     font-size: 32px;
     text-shadow: 1px 1px 5px black;
-}
-
-.navbar span {
-    color: lightblue;
-    font-size: 34px;
 }
 
 /*FIN - NAVBAR*/
@@ -30,6 +30,13 @@
     background-position: center;
     height: 500px;
     margin-bottom: 0;
+
+    p {
+        color: black;
+        text-shadow: 1px 1px 5px white;
+        text-align: start;
+        border-radius: 0;
+    }
 }
 
 .textoJumbotron {
@@ -46,26 +53,19 @@ h1 {
     text-shadow: 1px 1px 5px white;
 }
 
-.jumbotron p {
-    color: black;
-    text-shadow: 1px 1px 5px white;
-    text-align: start;
-    border-radius: 0;
-}
-
 .btn-primary {
     background-color: lightblue;
     color: black;
     border: 1px solid white;
-}
 
-.btn-primary:hover {
-    background-color: black;
-    text-decoration: none;
-}
+    a {
+        text-decoration: none;
+    }
 
-.btn-primary a {
-    text-decoration: none;
+    a:hover {
+        background-color: black;
+        text-decoration: none;
+    }
 }
 
 /*FIN - JUMBOTRON*/
@@ -223,11 +223,11 @@ footer {
 footer .redesSociales {
     font-size: 40px;
     color: lightblue;
-}
 
-footer .redesSociales i {
-    color: lightblue;
-    margin-left: 10px;
+    i {
+        color: lightblue;
+        margin-left: 10px;
+    }
 }
 
 footer .redesSociales i:hover {
@@ -620,14 +620,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoAaaj p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .bocaJuniors {
@@ -651,14 +651,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoBocaJuniors p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .clubBarcelona {
@@ -682,14 +682,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoBarcelona p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .clubNapoli {
@@ -713,14 +713,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoNapoli p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .mejoresGolesClub {
@@ -866,14 +866,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoAaaj p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .bocaJuniors {
@@ -897,14 +897,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoBocaJuniors p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .clubBarcelona {
@@ -928,14 +928,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoBarcelona p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .clubNapoli {
@@ -959,14 +959,14 @@ footer .redesSociales i:hover {
     float: left;
     background-color: lightblue;
     border: 2px solid lightblue;
-}
 
-.textoNapoli p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: black;
-    padding: 20px;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+        padding: 20px;
+    }
 }
 
 .mejoresGolesClub {
